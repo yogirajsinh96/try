@@ -25,7 +25,7 @@
 		
 		$query= "insert into employee (emp_name,emp_mobile_number,emp_email,emp_age,emp_exp,emp_skill,emp_file) values ('".$name."' , ".$mobile_num." , '".$email."' , ".$age." , ".$exp." , '".$skill."' ,' ".$file."')";
 		$chk=mysqli_query($con,$query);
-		echo $query;
+		//echo $query;
 		if($chk){
 			echo "inserted";
 		}else{
